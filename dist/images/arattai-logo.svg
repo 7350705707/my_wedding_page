@@ -1,0 +1,50 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arattai Logo Design based on the colorful geometric pattern -->
+  <defs>
+    <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E91E63;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="yellowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEB3B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC107;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#673AB7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="4" y="4" width="56" height="56" rx="12" ry="12" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Geometric pattern inspired by the original logo -->
+  <!-- Pink section (bottom-left) -->
+  <path d="M4 32 L4 52 Q4 60 12 60 L32 60 L32 32 Z" fill="url(#pinkGradient)"/>
+  
+  <!-- Orange section (left-middle) -->
+  <path d="M4 16 L4 32 L32 32 L24 24 L16 16 Q4 16 4 16 Z" fill="url(#orangeGradient)"/>
+  
+  <!-- Blue section (top-left) -->
+  <path d="M4 16 Q4 4 16 4 L32 4 L24 12 L16 16 Z" fill="url(#blueGradient)"/>
+  
+  <!-- Yellow section (top-right) -->
+  <path d="M32 4 L52 4 Q60 4 60 12 L60 32 L32 32 Z" fill="url(#yellowGradient)"/>
+  
+  <!-- Purple section (top-middle) -->
+  <path d="M24 12 L32 4 L32 32 L24 24 Z" fill="url(#purpleGradient)"/>
+  
+  <!-- Central messaging icon -->
+  <circle cx="32" cy="32" r="8" fill="white" opacity="0.9"/>
+  <path d="M28 28 L36 28 L36 32 L32 36 L28 32 Z" fill="#333"/>
+  <circle cx="30" cy="30" r="1" fill="#333"/>
+  <circle cx="34" cy="30" r="1" fill="#333"/>
+</svg>
